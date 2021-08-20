@@ -10,4 +10,8 @@ public class MySpringBootApplication {
         //run方法 表示运行SpringBoot的引导类 run参数就是SpringBoot引导类的字节码对象
         SpringApplication.run(MySpringBootApplication.class);
     }
+
+    public void testgit(){
+        System.out.println("git添加测试");
+    }
 }
