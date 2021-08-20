@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day1201_SpringBoot" />
+        <module name="day1202_springboot_fast" />
+        <module name="day1202springbot_fast1" />
+        <module name="day1203_springboot_mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day1201_SpringBoot" target="1.8" />
+      <module name="day1202_springboot_fast" target="1.8" />
+      <module name="day1202springbot_fast1" target="1.8" />
+      <module name="day1203_springboot_mybatis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

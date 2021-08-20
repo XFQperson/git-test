@@ -1,0 +1,40 @@
+#普通数据的配置   冒号后面要带个空格
+name: xxxfffqqq
+
+
+#对象的配置
+person:
+  name: xfq
+  age: 22
+  addr: guangzhou
+
+#行内对象配置
+person: {name: xfq,age: 22,addr: guangzhou}
+
+#配置数据、集合（普通字符串）
+city:
+  - beijing
+  - tianjin
+  - guangzhou
+
+#city: [beijing,tianjin,chongqing,shanghai]
+
+#配置数据、集合（对象数据）
+student:
+  - name: tom
+    age: 18
+    addr: beijing
+  - name: lucy
+    age: 17
+    addr: tianjin
+
+#student: [{name: tom,age: 18,addr: beijing},{name: lucy,age: 17,addr: tianjin}]
+
+#Map配置
+map:
+  key1: value1
+  key2: value2
+
+server:
+  port: 8082
+
